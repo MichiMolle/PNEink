@@ -1,0 +1,120 @@
+/*@import "adwaita.css";*/
+#panel {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+#panel .panel-button {
+  color: #000000;
+  margin: 0.1em;
+}
+#panel .panel-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#overviewGroup {
+  background-color: #ffffff;
+}
+
+.workspace-background {
+  background-color: #000000;
+  border-radius: 25px;
+  box-shadow: none;
+  border: 2px solid #000000;
+}
+
+.screenshot-ui-panel, .workspace-switcher, .switcher-list, .resize-popup, .osd-monitor-label, .osd-window {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 999px;
+  padding: 12px;
+}
+
+.search-entry {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.slider {
+  -barlevel-height: 4px;
+  -barlevel-background-color: #ffffff;
+  -barlevel-border-width: 2px;
+  -barlevel-border-color: #000000;
+  -barlevel-active-background-color: #000000;
+  -barlevel-active-border-color: #000000;
+  -barlevel-overdrive-color: #646464;
+  -barlevel-overdrive-border-color: #000000;
+  -barlevel-overdrive-separator-width: 2px;
+  -slider-handle-radius: 8px;
+  -slider-handle-border-width: 2;
+  -slider-handle-border-color: #000000;
+}
+
+.modal-dialog {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 11px;
+  border: 2px solid #000000;
+}
+
+#LookingGlassDialog > #Toolbar .lg-toolbar-button, .app-folder-dialog .folder-name-container .edit-folder-button, .button, .icon-button {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+#LookingGlassDialog > #Toolbar .lg-toolbar-button:hover, .app-folder-dialog .folder-name-container .edit-folder-button:hover, .button:hover, .icon-button:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px solid #000000;
+}
+
+#LookingGlassDialog > #Toolbar .lg-toolbar-button:checked, .app-folder-dialog .folder-name-container .edit-folder-button:checked, .button:checked, .icon-button:checked {
+  background-color: #000000;
+}
+
+#LookingGlassDialog > #Toolbar .lg-toolbar-button:checked *, .app-folder-dialog .folder-name-container .edit-folder-button:checked *, .button:checked, .icon-button:checked * {
+  color: #ffffff;
+}
+
+.popup-menu-content, .candidate-popup-content {
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: none;
+  background-color: #ffffff;
+}
+
+.dash-background {
+  background-color: #ffffff;
+}
+
+.dash-label {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+#keyboard {
+  background-color: #ffffff;
+  box-shadow: none;
+  border-top: 2px solid #000000;
+}
+
+#keyboard .keyboard-key {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+#keyboard .keyboard-key:active {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #000000;
+}
+
+/*# sourceMappingURL=gnome-shell.css.map */
