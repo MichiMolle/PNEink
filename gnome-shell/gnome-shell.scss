@@ -205,12 +205,17 @@
 /* Dash */
 .dash-background {
   background-color: #ffffff;
+  color: #000000;
   border: 2px solid #000000;
 }
 
 .dash-label {
   color: #ffffff;
   background-color: #000000;
+}
+
+.show-apps-icon{
+  color: #000000;
 }
 
 .app-well-app-running-dot {
