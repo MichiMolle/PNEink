@@ -16,6 +16,10 @@
   color: #ffffff;
 }
 
+#panel * {
+  color: #000000;
+}
+
 #overviewGroup {
   background-color: #ffffff;
 }

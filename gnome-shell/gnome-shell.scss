@@ -18,6 +18,11 @@
   }
 }
 
+#panel *{
+  color: #000000;
+}
+
+
 #overviewGroup {
   background-color: #ffffff;
 }
@@ -57,6 +62,7 @@
   -slider-handle-border-width: 2;
   -slider-handle-border-color: #000000;
 }
+
 
 .modal-dialog {
   color: #000000;
