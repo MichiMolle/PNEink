@@ -22,6 +22,10 @@
   color: #000000;
 }
 
+#panel *:hover{
+  color: #ffffff;
+}
+
 
 #overviewGroup {
   background-color: #ffffff;
@@ -183,6 +187,7 @@
 /* Dash */
 .dash-background {
   background-color: #ffffff;
+  border: 2px solid #000000;
 }
 
 .dash-label {
