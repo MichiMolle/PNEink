@@ -43,6 +43,22 @@
   padding: 12px;
 }
 
+.search-section-content {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+.search-section-content * {
+  color: #000000;
+}
+
+.list-search-result {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+.list-search-result * {
+  color: #000000;
+}
+
 .search-entry {
   background-color: #ffffff;
   color: #000000;
