@@ -2,6 +2,7 @@
 
 #panel{
   background-color: #ffffff;
+  color: #000000;
   border: 2px solid #000000;
   border-left: none;
   border-right: none;
@@ -62,6 +63,7 @@
   background-color: #ffffff;
   border-radius: 11px;
   border: 2px solid #000000;
+  box-shadow: none;
 }
 
 #LookingGlassDialog > #Toolbar .lg-toolbar-button, .app-folder-dialog .folder-name-container .edit-folder-button, .button, .icon-button {
@@ -91,20 +93,107 @@
   background-color: #ffffff;
 }
 
-.popup-menu-content *, .candidate-popup-content *{
+/* Notification Tray */
+.message {
+  border: 2px solid black;
+  color: #000000;
+  background-color: #ffffff;
 }
 
+.message *{
+  color: #000000;
+}
+
+.datemenu-today-button {
+  color: #000000;
+}
+
+/* Calendar */
+.calendar{
+  .calendar-month-header{
+    .calendar-month-label{
+      color: #000000;
+    }
+  }
+
+  .calendar-nonwork-day {
+    color: #000000;
+  }
+
+  .calendar-today{
+    background-color: #000000;
+    color: #000000;
+  }
+
+  .calendar-week-number {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+  }
+}
+
+.events-button {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+
+  *{
+    color: #000000;
+  }
+}
+
+/* message Tray */
+.world-clocks-button {
+  box-shadow: none;
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+
+  .world-clocks-header, .world-clocks-time, .world-clocks-city, .world-clocks-timezone  {
+    color: #000000;
+  }
+}
+
+.weather-button {
+  box-shadow: none;
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+
+  .weather-header {
+    color: #000000;
+  }
+
+  .weather-forecast-time {
+    color: #000000;
+  }
+}
+
+
+.window-caption {
+  background-color: #000000;
+}
+
+/* Dash */
 .dash-background {
   background-color: #ffffff;
 }
 
 .dash-label {
-  color: #000000;
-  background-color: #ffffff;
-  border: 2px solid #000000;
+  color: #ffffff;
+  background-color: #000000;
 }
 
+.app-well-app-running-dot {
+  background-color: #000000;
+}
 
+/* Icon Grid */
+.overview-icon-with-label{
+  color: #000000;
+}
+
+/* Keyboard */
 #keyboard{
   background-color: #ffffff;
   box-shadow: none;
@@ -117,8 +206,13 @@
   border: 2px solid #000000;
 }
 
+.keyboard-key{
+  box-shadow: none;
+}
+
 #keyboard .keyboard-key:active{
   background-color: #000000;
   color: #ffffff;
   border: 2px solid #000000;
 }
+
