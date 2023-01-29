@@ -18,14 +18,6 @@
   }
 }
 
-#panel *{
-  color: #000000;
-}
-
-#panel *:hover{
-  color: #ffffff;
-}
-
 
 #overviewGroup {
   background-color: #ffffff;
@@ -85,6 +77,26 @@
   -slider-handle-border-color: #000000;
 }
 
+.osd-window .level {
+  -barlevel-border-width: 2px;
+  -barlevel-border-color: #000000;
+  -barlevel-background-color: #ffffff;
+  -barlevel-active-background-color: #000000;
+  -barlevel-overdrive-color: #646464;
+  -barlevel-overdrive-separator-width: 2px;
+}
+
+
+.quick-menu-toggle .quick-toggle-arrow {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.quick-toggle-menu {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
 
 .modal-dialog {
   color: #000000;
@@ -118,6 +130,10 @@
   color: #000000;
   border: 2px solid #000000;
   box-shadow: none;
+  background-color: #ffffff;
+}
+
+.popup-sub-menu {
   background-color: #ffffff;
 }
 
@@ -197,6 +213,9 @@
   }
 }
 
+.icon-dropshadow {
+  icon-shadow: none;
+}
 
 .window-caption {
   background-color: #000000;
@@ -207,6 +226,10 @@
   background-color: #ffffff;
   color: #000000;
   border: 2px solid #000000;
+}
+
+.dash-item-container{
+  color: #000000;
 }
 
 .dash-label {
