@@ -11,8 +11,14 @@
   color: #000000;
   margin: 0.1em;
 }
+#panel .panel-button * {
+  color: #000000;
+}
 #panel .panel-button:hover {
   background-color: #000000;
+  color: #ffffff;
+}
+#panel .panel-button:hover * {
   color: #ffffff;
 }
 

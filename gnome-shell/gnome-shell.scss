@@ -11,10 +11,18 @@
   .panel-button{
     color: #000000;
     margin: 0.1em;
+
+    *{
+      color: #000000;
+    }
   }
   .panel-button:hover{
     background-color: #000000;
     color: #ffffff;
+
+    *{
+      color: #ffffff;
+    }
   }
 }
 
