@@ -97,6 +97,9 @@
   color: #000000;
   border: 2px solid #000000;
 }
+.quick-toggle-menu * {
+  background-color: #ffffff;
+}
 
 .modal-dialog {
   color: #000000;
@@ -146,6 +149,10 @@
 
 .message * {
   color: #000000;
+}
+
+.message.notification-banner {
+  box-shadow: none;
 }
 
 .datemenu-today-button {

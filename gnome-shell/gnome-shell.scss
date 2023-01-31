@@ -31,6 +31,7 @@
   background-color: #ffffff;
 }
 
+
 .workspace-background {
   background-color: #000000;
   border-radius: 25px;
@@ -104,6 +105,10 @@
   background-color: #ffffff;
   color: #000000;
   border: 2px solid #000000;
+
+  *{
+    background-color: #ffffff;
+  }
 }
 
 .modal-dialog {
@@ -154,6 +159,10 @@
 
 .message *{
   color: #000000;
+}
+
+.message.notification-banner{
+  box-shadow: none;
 }
 
 .datemenu-today-button {
