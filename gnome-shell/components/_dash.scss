@@ -1,0 +1,26 @@
+/*
+DASH
+the dash is gnomes application launcher bar at the bottom
+ */
+.dash-background {
+  background-color: $light;
+  color: $dark;
+  border: $border-thick;
+}
+
+.dash-item-container{
+  color: $dark;
+}
+
+.dash-label {
+  color: $light;
+  background-color: $dark;
+}
+
+.show-apps-icon{
+  color: $dark;
+}
+
+.app-well-app-running-dot {
+  background-color: $dark;
+}

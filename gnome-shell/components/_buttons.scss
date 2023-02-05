@@ -1,0 +1,22 @@
+/*
+BUTTONS
+ */
+#LookingGlassDialog > #Toolbar .lg-toolbar-button, .app-folder-dialog .folder-name-container .edit-folder-button, .button, .icon-button {
+  color: $dark;
+  background-color: $light;
+  border: $border-thick;
+}
+
+#LookingGlassDialog > #Toolbar .lg-toolbar-button:hover, .app-folder-dialog .folder-name-container .edit-folder-button:hover, .button:hover, .icon-button:hover {
+  color: $light;
+  background-color: $dark;
+  border: $border-thick;
+}
+
+#LookingGlassDialog > #Toolbar .lg-toolbar-button:checked, .app-folder-dialog .folder-name-container .edit-folder-button:checked, .button:checked, .icon-button:checked {
+  background-color: $dark;
+}
+
+#LookingGlassDialog > #Toolbar .lg-toolbar-button:checked *, .app-folder-dialog .folder-name-container .edit-folder-button:checked *, .button:checked, .icon-button:checked * {
+  color: $light;
+}

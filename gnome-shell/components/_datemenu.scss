@@ -1,0 +1,82 @@
+/*
+DATE MENU
+ */
+/* Notification Tray */
+.message {
+  border: $border-thick;
+  color: $dark;
+  background-color: $light;
+}
+
+.message *{
+  color: $dark;
+}
+
+.message.notification-banner{
+  box-shadow: none;
+}
+
+.datemenu-today-button {
+  color: $dark;
+}
+
+/* Calendar */
+.calendar{
+  .calendar-month-header{
+    .calendar-month-label{
+      color: $dark;
+    }
+  }
+
+  .calendar-nonwork-day {
+    color: $dark;
+  }
+
+  .calendar-today{
+    background-color: $dark;
+    color: $dark;
+  }
+
+  .calendar-week-number {
+    background-color: $light;
+    color: $dark;
+    border: 1px solid $dark;
+  }
+}
+
+.events-button {
+  color: $dark;
+  background-color: $light;
+  border: $border-thick;
+
+  *{
+    color: $dark;
+  }
+}
+
+/* message Tray */
+.world-clocks-button {
+  box-shadow: none;
+  color: $dark;
+  background-color: $light;
+  border: $border-thick;
+
+  .world-clocks-header, .world-clocks-time, .world-clocks-city, .world-clocks-timezone  {
+    color: $dark;
+  }
+}
+
+.weather-button {
+  box-shadow: none;
+  color: $dark;
+  background-color: $light;
+  border: $border-thick;
+
+  .weather-header {
+    color: $dark;
+  }
+
+  .weather-forecast-time {
+    color: $dark;
+  }
+}

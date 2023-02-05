@@ -1,0 +1,25 @@
+/*
+SEARCH
+ */
+.search-section-content{
+  background-color: $light;
+  border: $border-thick;
+
+  *{
+    color: $dark;
+  }
+}
+.list-search-result{
+  background-color: $light;
+  border: $border-thick;
+
+  *{
+    color : $dark;
+  }
+}
+
+.search-entry{
+  background-color: $light;
+  color: $dark;
+  border: $border-thick;
+}

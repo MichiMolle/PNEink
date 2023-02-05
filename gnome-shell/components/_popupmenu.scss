@@ -1,0 +1,13 @@
+/*
+POPUP MENU
+ */
+.popup-menu-content, .candidate-popup-content {
+  color: $dark;
+  border: $border-thick;
+  box-shadow: none;
+  background-color: $light;
+}
+
+.popup-sub-menu {
+  background-color: $light;
+}

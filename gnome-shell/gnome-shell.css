@@ -1,4 +1,7 @@
-/*@import "adwaita.css";*/
+/*
+TOP BAR
+#panel is the ID of the top bar in gnome
+*/
 #panel {
   background-color: #ffffff;
   color: #000000;
@@ -22,127 +25,12 @@
   color: #ffffff;
 }
 
-#overviewGroup {
-  background-color: #ffffff;
-}
-
-.workspace-background {
-  background-color: #000000;
-  border-radius: 25px;
-  box-shadow: none;
-  border: 2px solid #000000;
-}
-
-.screenshot-ui-panel, .workspace-switcher, .switcher-list, .resize-popup, .osd-monitor-label, .osd-window {
-  color: #000000;
-  background-color: #ffffff;
-  border: 2px solid #000000;
-  border-radius: 999px;
-  padding: 12px;
-}
-
-.search-section-content {
-  background-color: #ffffff;
-  border: 2px solid #000000;
-}
-.search-section-content * {
-  color: #000000;
-}
-
-.list-search-result {
-  background-color: #ffffff;
-  border: 2px solid #000000;
-}
-.list-search-result * {
-  color: #000000;
-}
-
-.search-entry {
-  background-color: #ffffff;
-  color: #000000;
-  border: 2px solid #000000;
-}
-
-.slider {
-  -barlevel-height: 4px;
-  -barlevel-background-color: #ffffff;
-  -barlevel-border-width: 2px;
-  -barlevel-border-color: #000000;
-  -barlevel-active-background-color: #000000;
-  -barlevel-active-border-color: #000000;
-  -barlevel-overdrive-color: #646464;
-  -barlevel-overdrive-border-color: #000000;
-  -barlevel-overdrive-separator-width: 2px;
-  -slider-handle-radius: 8px;
-  -slider-handle-border-width: 2;
-  -slider-handle-border-color: #000000;
-}
-
-.osd-window .level {
-  -barlevel-border-width: 2px;
-  -barlevel-border-color: #000000;
-  -barlevel-background-color: #ffffff;
-  -barlevel-active-background-color: #000000;
-  -barlevel-overdrive-color: #646464;
-  -barlevel-overdrive-separator-width: 2px;
-}
-
-.quick-menu-toggle .quick-toggle-arrow {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-.quick-toggle-menu {
-  background-color: #ffffff;
-  color: #000000;
-  border: 2px solid #000000;
-}
-.quick-toggle-menu * {
-  background-color: #ffffff;
-}
-
-.modal-dialog {
-  color: #000000;
-  background-color: #ffffff;
-  border-radius: 11px;
-  border: 2px solid #000000;
-  box-shadow: none;
-}
-
-#LookingGlassDialog > #Toolbar .lg-toolbar-button, .app-folder-dialog .folder-name-container .edit-folder-button, .button, .icon-button {
-  color: #000000;
-  background-color: #ffffff;
-  border: 2px solid #000000;
-}
-
-#LookingGlassDialog > #Toolbar .lg-toolbar-button:hover, .app-folder-dialog .folder-name-container .edit-folder-button:hover, .button:hover, .icon-button:hover {
-  color: #ffffff;
-  background-color: #000000;
-  border: 2px solid #000000;
-}
-
-#LookingGlassDialog > #Toolbar .lg-toolbar-button:checked, .app-folder-dialog .folder-name-container .edit-folder-button:checked, .button:checked, .icon-button:checked {
-  background-color: #000000;
-}
-
-#LookingGlassDialog > #Toolbar .lg-toolbar-button:checked *, .app-folder-dialog .folder-name-container .edit-folder-button:checked *, .button:checked, .icon-button:checked * {
-  color: #ffffff;
-}
-
-.popup-menu-content, .candidate-popup-content {
-  color: #000000;
-  border: 2px solid #000000;
-  box-shadow: none;
-  background-color: #ffffff;
-}
-
-.popup-sub-menu {
-  background-color: #ffffff;
-}
-
+/*
+DATE MENU
+ */
 /* Notification Tray */
 .message {
-  border: 2px solid black;
+  border: 2px solid #000000;
   color: #000000;
   background-color: #ffffff;
 }
@@ -209,15 +97,35 @@
   color: #000000;
 }
 
-.icon-dropshadow {
-  icon-shadow: none;
+/*
+SEARCH
+ */
+.search-section-content {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+.search-section-content * {
+  color: #000000;
 }
 
-.window-caption {
-  background-color: #000000;
+.list-search-result {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+.list-search-result * {
+  color: #000000;
 }
 
-/* Dash */
+.search-entry {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+/*
+DASH
+the dash is gnomes application launcher bar at the bottom
+ */
 .dash-background {
   background-color: #ffffff;
   color: #000000;
@@ -241,32 +149,155 @@
   background-color: #000000;
 }
 
-/* Icon Grid */
-.overview-icon-with-label {
-  color: #000000;
-}
-
-/* Keyboard */
+/*
+KEYBOARD
+styling for gnomes on screen keyboard
+ */
 #keyboard {
   background-color: #ffffff;
   box-shadow: none;
   border-top: 2px solid #000000;
 }
-
 #keyboard .keyboard-key {
   background-color: #ffffff;
   color: #000000;
   border: 2px solid #000000;
-}
-
-.keyboard-key {
   box-shadow: none;
 }
-
 #keyboard .keyboard-key:active {
   background-color: #000000;
   color: #ffffff;
   border: 2px solid #000000;
+}
+
+/*
+OVERVIEW
+overview is the view you get when clicking on "Activities" or hitting mod4
+ */
+#overviewGroup {
+  background-color: #ffffff;
+}
+
+.icon-dropshadow {
+  icon-shadow: none;
+}
+
+.window-caption {
+  background-color: #000000;
+}
+
+.workspace-background {
+  background-color: #000000;
+  border-radius: 25px;
+  box-shadow: none;
+  border: 2px solid #000000;
+}
+
+/*
+ICON GRID
+ */
+.overview-icon-with-label {
+  color: #000000;
+}
+
+/*
+BUTTONS
+ */
+#LookingGlassDialog > #Toolbar .lg-toolbar-button, .app-folder-dialog .folder-name-container .edit-folder-button, .button, .icon-button {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+#LookingGlassDialog > #Toolbar .lg-toolbar-button:hover, .app-folder-dialog .folder-name-container .edit-folder-button:hover, .button:hover, .icon-button:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px solid #000000;
+}
+
+#LookingGlassDialog > #Toolbar .lg-toolbar-button:checked, .app-folder-dialog .folder-name-container .edit-folder-button:checked, .button:checked, .icon-button:checked {
+  background-color: #000000;
+}
+
+#LookingGlassDialog > #Toolbar .lg-toolbar-button:checked *, .app-folder-dialog .folder-name-container .edit-folder-button:checked *, .button:checked, .icon-button:checked * {
+  color: #ffffff;
+}
+
+/*
+ON SCREEN DISPLAY
+ */
+.screenshot-ui-panel, .workspace-switcher, .switcher-list, .resize-popup, .osd-monitor-label, .osd-window {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 999px;
+  padding: 12px;
+}
+
+.osd-window .level {
+  -barlevel-border-width: 2px;
+  -barlevel-border-color: #000000;
+  -barlevel-background-color: #ffffff;
+  -barlevel-active-background-color: #000000;
+  -barlevel-overdrive-color: #646464;
+  -barlevel-overdrive-separator-width: 2px;
+}
+
+/*
+MODAL DIALOG
+ */
+.modal-dialog {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 11px;
+  border: 2px solid #000000;
+  box-shadow: none;
+}
+
+/*
+POPUP MENU
+ */
+.popup-menu-content, .candidate-popup-content {
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: none;
+  background-color: #ffffff;
+}
+
+.popup-sub-menu {
+  background-color: #ffffff;
+}
+
+/*
+QUICKSETTINGS
+ */
+.slider {
+  -barlevel-height: 4px;
+  -barlevel-background-color: #ffffff;
+  -barlevel-border-width: 2px;
+  -barlevel-border-color: #000000;
+  -barlevel-active-background-color: #000000;
+  -barlevel-active-border-color: #000000;
+  -barlevel-overdrive-color: #646464;
+  -barlevel-overdrive-border-color: #000000;
+  -barlevel-overdrive-separator-width: 2px;
+  -slider-handle-radius: 8px;
+  -slider-handle-border-width: 2;
+  -slider-handle-border-color: #000000;
+}
+
+.quick-menu-toggle .quick-toggle-arrow {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.quick-toggle-menu {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+.quick-toggle-menu * {
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=gnome-shell.css.map */

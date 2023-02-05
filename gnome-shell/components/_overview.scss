@@ -1,0 +1,22 @@
+/*
+OVERVIEW
+overview is the view you get when clicking on "Activities" or hitting mod4
+ */
+#overviewGroup {
+  background-color: $light;
+}
+
+.icon-dropshadow {
+  icon-shadow: none;
+}
+
+.window-caption {
+  background-color: $dark;
+}
+
+.workspace-background {
+  background-color: $dark;
+  border-radius: 25px;
+  box-shadow: none;
+  border: $border-thick;
+}

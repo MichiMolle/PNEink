@@ -1,0 +1,22 @@
+/*
+KEYBOARD
+styling for gnomes on screen keyboard
+ */
+#keyboard{
+  background-color: $light;
+  box-shadow: none;
+  border-top: $border-thick;
+
+  .keyboard-key{
+    background-color: $light;
+    color: $dark;
+    border: $border-thick;
+    box-shadow: none;
+
+    &:active{
+      background-color: $dark;
+      color: $light;
+      border: $border-thick;
+    }
+  }
+}

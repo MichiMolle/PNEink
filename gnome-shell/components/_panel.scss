@@ -1,0 +1,29 @@
+/*
+TOP BAR
+#panel is the ID of the top bar in gnome
+*/
+#panel{
+  background-color: $light;
+  color: $dark;
+  border: $border-thick;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+
+  .panel-button{
+    color: $dark;
+    margin: 0.1em;
+
+    *{
+      color: $dark;
+    }
+  }
+  .panel-button:hover{
+    background-color: $dark;
+    color: $light;
+
+    *{
+      color: $light;
+    }
+  }
+}

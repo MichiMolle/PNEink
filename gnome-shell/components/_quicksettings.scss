@@ -1,0 +1,32 @@
+/*
+QUICKSETTINGS
+ */
+.slider {
+  -barlevel-height: 4px;
+  -barlevel-background-color: $light;
+  -barlevel-border-width: 2px;
+  -barlevel-border-color: $dark;
+  -barlevel-active-background-color: $dark;
+  -barlevel-active-border-color: $dark;
+  -barlevel-overdrive-color: #646464;
+  -barlevel-overdrive-border-color: $dark;
+  -barlevel-overdrive-separator-width: 2px;
+  -slider-handle-radius: 8px;
+  -slider-handle-border-width: 2;
+  -slider-handle-border-color: $dark;
+}
+
+.quick-menu-toggle .quick-toggle-arrow {
+  background-color: $light;
+  color: $dark;
+}
+
+.quick-toggle-menu {
+  background-color: $light;
+  color: $dark;
+  border: $border-thick;
+
+  *{
+    background-color: $light;
+  }
+}

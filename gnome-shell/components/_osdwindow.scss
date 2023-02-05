@@ -1,0 +1,19 @@
+/*
+ON SCREEN DISPLAY
+ */
+.screenshot-ui-panel, .workspace-switcher, .switcher-list, .resize-popup, .osd-monitor-label, .osd-window {
+  color: $dark;
+  background-color: $light;
+  border: $border-thick;
+  border-radius: 999px;
+  padding: 12px;
+}
+
+.osd-window .level {
+  -barlevel-border-width: 2px;
+  -barlevel-border-color: $dark;
+  -barlevel-background-color: $light;
+  -barlevel-active-background-color: $dark;
+  -barlevel-overdrive-color: #646464;
+  -barlevel-overdrive-separator-width: 2px;
+}
