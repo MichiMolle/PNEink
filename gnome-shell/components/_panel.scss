@@ -18,12 +18,33 @@ TOP BAR
       color: $dark;
     }
   }
+
   .panel-button:hover{
     background-color: $dark;
     color: $light;
 
     *{
       color: $light;
+    }
+
+    .clock{
+      box-shadow: none;
+    }
+  }
+
+  .clock-display{
+    spacing: 0;
+    padding: 0;
+    margin-bottom: 4px;
+
+    &:hover{
+      background-color: rgba(0,0,0,0) !important;
+      color: rgba(0,0,0,0) !important;
+
+      .clock{
+        background-color: #000000;
+        color: #ffffff;
+      }
     }
   }
 }
