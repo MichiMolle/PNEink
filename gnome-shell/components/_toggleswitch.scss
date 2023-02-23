@@ -1,0 +1,7 @@
+.toggle-switch{
+  background-image: url('./assets/toggle-off.svg');
+
+  &:checked{
+    background-image: url('./assets/toggle-on.svg');
+  }
+}
