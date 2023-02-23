@@ -24,6 +24,22 @@ TOP BAR
 #panel .panel-button:hover * {
   color: #ffffff;
 }
+#panel .panel-button:hover .clock {
+  box-shadow: none;
+}
+#panel .clock-display {
+  spacing: 0;
+  padding: 0;
+  margin-bottom: 4px;
+}
+#panel .clock-display:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: rgba(0, 0, 0, 0) !important;
+}
+#panel .clock-display:hover .clock {
+  background-color: #000000;
+  color: #ffffff;
+}
 
 /*
 DATE MENU
@@ -122,6 +138,10 @@ SEARCH
   border: 2px solid #000000;
 }
 
+.app-well-app:selected .overview-icon, .app-well-app:focus .overview-icon, .app-well-app:hover .overview-icon {
+  border: 2px solid #000000;
+}
+
 /*
 DASH
 the dash is gnomes application launcher bar at the bottom
@@ -188,9 +208,18 @@ overview is the view you get when clicking on "Activities" or hitting mod4
 
 .workspace-background {
   background-color: #000000;
-  border-radius: 25px;
+  border-radius: 5px;
   box-shadow: none;
   border: 2px solid #000000;
+}
+
+.workspaces-view > * > ClutterActor {
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+.workspaces-view > * > ClutterActor:hover {
+  border: 2px solid #000000;
+  border-radius: 5px;
 }
 
 /*
@@ -296,8 +325,23 @@ QUICKSETTINGS
   color: #000000;
   border: 2px solid #000000;
 }
-.quick-toggle-menu * {
+.quick-toggle-menu .icon {
   background-color: #ffffff;
+  border: 2px solid #000000;
+}
+.quick-toggle-menu .popup-menu-item:hover, .quick-toggle-menu .popup-menu-item:focus {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+.quick-toggle-menu .popup-separator-menu-item {
+  background-color: #000000;
+}
+
+.toggle-switch {
+  background-image: url("./assets/toggle-off.svg");
+}
+.toggle-switch:checked {
+  background-image: url("./assets/toggle-on.svg");
 }
 
 /*# sourceMappingURL=gnome-shell.css.map */

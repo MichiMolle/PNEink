@@ -26,7 +26,19 @@ QUICKSETTINGS
   color: $dark;
   border: $border-thick;
 
-  *{
+  & .icon {
     background-color: $light;
+    border: 2px solid $dark;
+  }
+
+  .popup-menu-item{
+    &:hover, &:focus{
+      background-color: $dark!important;
+      color: $light!important;
+    }
+  }
+
+  .popup-separator-menu-item{
+    background-color: #000000;
   }
 }

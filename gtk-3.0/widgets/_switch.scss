@@ -1,0 +1,30 @@
+switch{
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 14px;
+  padding: 2px;
+
+  &:hover{
+    background-color: unset;
+  }
+
+  > slider{
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    min-width: 18px;
+    min-height: 18px;
+  }
+
+  *{
+    color: rgba(0,0,0,0);
+  }
+}
+
+switch:checked{
+  background-color: #000000;
+}
+
+switch:checked slider{
+  background-color: #ffffff;
+}

@@ -1,0 +1,140 @@
+/*@import url("resource:///org/gtk/libgtk/theme/HighContrast/gtk-contained.css");*/
+@import "common/colors";
+@import "widgets/window";
+@import "widgets/switch";
+@import "widgets/scale";
+@import "widgets/popover";
+@import "widgets/button";
+@import "widgets/radio";
+@import "widgets/combobox";
+@import "widgets/dialog";
+@import "widgets/scrollbar";
+
+.gtkstyle-fallback {
+  background-color: rgba(255, 255, 255, 255);
+  color: #000000;
+}
+
+.view, iconview,
+.view text,
+iconview text,
+textview text {
+  color: #000000;
+  background-color: rgba(255,255,255,255);
+}
+
+.view text selection {
+background-color: #000000;
+color: #ffffff;
+}
+
+*{
+
+  &::backdrop{
+    background-color: unset;
+    background-image: unset;
+  }
+}
+
+scrolledwindow{
+  background-color: #ffffff!important;
+}
+
+viewport{
+  background-color: #ffffff;
+}
+
+separator{
+  background-color: #000000;
+}
+
+notebook{
+  background-color: #ffffff;
+}
+
+textview{
+  background-color: #ffffff;
+}
+
+searchbar{
+  background-color: #ffffff;
+}
+
+row{
+  border: 1px solid #ffffff;
+}
+
+row:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+row:selected{
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+row:selected *{
+  color: #ffffff;
+}
+
+levelbar .filled{
+  background-color: #000000;
+  border: 2px solid #000000;
+}
+levelbar .empty{
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+checkbutton{
+  border: none !important;
+}
+
+.background{
+  background-color: #ffffff;
+}
+
+.boxed-list, .card{
+  box-shadow: none;
+  border: 2px solid #000000;
+}
+
+.boxed-list row, .boxed-list row:hover{
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.boxed-list row:last-child{
+  border-bottom: none;
+}
+
+.navigation-sidebar{
+  background-color: #ffffff;
+  color: #000000;
+  border-image-width: 2;
+}
+
+.navigation-sidebar * list{
+  border: none!important;
+}
+
+.horizontal{
+  color: #000000;
+}
+
+.search{
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+/* app-specific css */
+@import "apps/apps";
+
+
+
+

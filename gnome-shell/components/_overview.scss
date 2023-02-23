@@ -16,7 +16,19 @@ overview is the view you get when clicking on "Activities" or hitting mod4
 
 .workspace-background {
   background-color: $dark;
-  border-radius: 25px;
+  border-radius: 5px;
   box-shadow: none;
   border: $border-thick;
+}
+
+.workspaces-view{
+  & > * > ClutterActor {
+    border: 2px solid #000000;
+    border-radius: 5px;
+
+    &:hover{
+      border: 2px solid #000000;
+      border-radius: 5px;
+    }
+  }
 }

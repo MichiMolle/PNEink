@@ -1,0 +1,372 @@
+/*@import url("resource:///org/gtk/libgtk/theme/HighContrast/gtk-contained.css");*/
+@define-color text_view_bg #ffffff;
+@define-color theme_text_color #000000;
+window {
+  background-color: #ffffff;
+  color: #000000;
+  outline-color: #000000;
+  outline-offset: 0px;
+  box-shadow: none;
+  border: 2px solid #000000;
+}
+
+decoration {
+  box-shadow: none;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+headerbar {
+  background-color: #ffffff;
+  background-image: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 8px 8px 0px 0px;
+  padding: 5px;
+}
+headerbar separator {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.titlebar {
+  background-color: #ffffff !important;
+  color: #000000;
+}
+.titlebar * {
+  color: #000000;
+}
+
+.titlebutton {
+  padding: 2px;
+  background-color: #ffffff !important;
+  background-image: none;
+  border: 2px solid #000000 !important;
+  min-height: 18px;
+  min-width: 18px;
+  border-radius: 50%;
+}
+.titlebutton:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.titlebutton:hover * {
+  color: #ffffff;
+}
+
+actionbar {
+  background-color: #ffffff;
+}
+
+switch {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 14px;
+  padding: 2px;
+}
+switch:hover {
+  background-color: unset;
+}
+switch > slider {
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  min-width: 18px;
+  min-height: 18px;
+}
+switch * {
+  color: rgba(0, 0, 0, 0);
+}
+
+switch:checked {
+  background-color: #000000;
+}
+
+switch:checked slider {
+  background-color: #ffffff;
+}
+
+scale trough {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+scale highlight {
+  background-color: #000000;
+}
+
+scale slider {
+  box-shadow: none;
+  border: 2px solid #000000;
+}
+
+popover {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+popover contents {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.image-button {
+  background-color: #ffffff;
+  background-image: none;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+button {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  min-height: 24px;
+  min-width: 16px;
+  padding: 4px 9px;
+  background-color: #ffffff;
+  background-image: none;
+  color: #000000;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+button:hover * {
+  color: #ffffff;
+}
+
+.linked button {
+  border-right: none;
+}
+
+.linked button:last-child {
+  border-right: 2px solid #000000;
+}
+
+.suggested-action {
+  background-color: #000000;
+  color: #ffffff;
+}
+.suggested-action * {
+  color: #ffffff;
+}
+.suggested-action:disabled {
+  border: 2px solid #646464;
+  background-color: #646464;
+}
+
+buttonbox button {
+  border-radius: 0;
+}
+buttonbox button:first-child {
+  border-radius: 5px 0px 0px 5px;
+}
+buttonbox button:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+buttonbox button:checked {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+radio {
+  border: 2px solid #000000;
+  border-radius: 50%;
+  min-height: 10px;
+  min-width: 10px;
+  margin-right: 1em;
+}
+
+radio:checked {
+  background-color: #000000;
+}
+
+combobox arrow {
+  -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+  min-height: 16px;
+  min-width: 16px;
+}
+
+dialog {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+scrollbar {
+  background-color: #ffffff;
+}
+
+* {
+  -GtkScrollbar-has-backward-stepper: false;
+  -GtkScrollbar-has-forward-stepper: false;
+}
+
+scrollbar slider {
+  min-width: 8px;
+  min-height: 8px;
+  margin: -1px;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  background-clip: padding-box;
+  background-color: #000000;
+}
+
+scrollbar slider:disabled {
+  background-color: transparent;
+}
+
+scrollbar.horizontal slider {
+  min-width: 40px;
+}
+
+scrollbar.vertical slider {
+  min-height: 40px;
+}
+
+.gtkstyle-fallback {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+.view, iconview,
+.view text,
+iconview text,
+textview text {
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+}
+
+.view text selection {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+*::backdrop {
+  background-color: unset;
+  background-image: unset;
+}
+
+scrolledwindow {
+  background-color: #ffffff !important;
+}
+
+viewport {
+  background-color: #ffffff;
+}
+
+separator {
+  background-color: #000000;
+}
+
+notebook {
+  background-color: #ffffff;
+}
+
+textview {
+  background-color: #ffffff;
+}
+
+searchbar {
+  background-color: #ffffff;
+}
+
+row {
+  border: 1px solid #ffffff;
+}
+
+row:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+row:selected {
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+row:selected * {
+  color: #ffffff;
+}
+
+levelbar .filled {
+  background-color: #000000;
+  border: 2px solid #000000;
+}
+
+levelbar .empty {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+checkbutton {
+  border: none !important;
+}
+
+.background {
+  background-color: #ffffff;
+}
+
+.boxed-list, .card {
+  box-shadow: none;
+  border: 2px solid #000000;
+}
+
+.boxed-list row, .boxed-list row:hover {
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.boxed-list row:last-child {
+  border-bottom: none;
+}
+
+.navigation-sidebar {
+  background-color: #ffffff;
+  color: #000000;
+  border-image-width: 2;
+}
+
+.navigation-sidebar * list {
+  border: none !important;
+}
+
+.horizontal {
+  color: #000000;
+}
+
+.search {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+/* app-specific css */
+.frame {
+  border: 1px solid #000000;
+}
+
+viewport.frame {
+  padding: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+viewswitcher button {
+  margin-left: 5px;
+  padding: 5px;
+}
+
+viewswitcher button:checked {
+  background-color: #000000;
+}
+
+viewswitcher button:checked * {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=gtk.css.map */

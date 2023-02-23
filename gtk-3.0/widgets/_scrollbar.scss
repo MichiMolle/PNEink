@@ -1,0 +1,24 @@
+scrollbar {
+  background-color: #ffffff;
+}
+
+* {
+  -GtkScrollbar-has-backward-stepper: false;
+  -GtkScrollbar-has-forward-stepper: false;
+}
+scrollbar slider {
+  min-width: 8px;
+  min-height: 8px;
+  margin: -1px;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  background-clip: padding-box;
+  background-color: #000000;
+}
+
+scrollbar slider:disabled { background-color: transparent; }
+
+scrollbar.horizontal slider { min-width: 40px; }
+
+scrollbar.vertical slider { min-height: 40px; }
+

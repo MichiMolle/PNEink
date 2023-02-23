@@ -1,0 +1,11 @@
+radio{
+  border: 2px solid #000000;
+  border-radius: 50%;
+  min-height: 10px;
+  min-width: 10px;
+  margin-right: 1em;
+}
+
+radio:checked{
+  background-color: #000000;
+}
